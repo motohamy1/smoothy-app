@@ -329,19 +329,7 @@ body {
             }
 
             .details {
-                @apply space-y-5 md:max-w-md;
-
-                h3 {
-                    @apply text-xl font-medium mb-2;
-                }
-
-                p {
-                    @apply text-sm opacity-80;
-                }
-            }
-        }
-    }
-}md text-left;
+                @apply space-y-5 md:max-w-md text-left;
 
                 h2 {
                     @apply md:text-5xl text-3xl font-serif;
