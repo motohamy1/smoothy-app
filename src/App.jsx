@@ -6,6 +6,7 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 import React from 'react'
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
+import Cocktails from "./components/Cocktails.jsx";
 
 
 const App = () => {
@@ -13,7 +14,7 @@ const App = () => {
         <main className="">
             <Navbar />
             <Hero />
-            <div className="h-dvh bg-black"></div>
+            <Cocktails />
         </main>
 
     )
